@@ -1,0 +1,3 @@
+class InflowSource < ApplicationRecord
+  
+end
