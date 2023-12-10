@@ -10,5 +10,5 @@ Rails.application.routes.draw do
     end
   end
 
-  mount Sidekiq::Web, at: '/sidekiq'
+  mount Sidekiq::Web, at: '/sidekiq' # sidekiqの管理画面が見れるようになる。
 end
