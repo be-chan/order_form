@@ -11,6 +11,7 @@ ApplicationRecord.transaction do
   Order.delete_all
   PaymentMethod.delete_all
   InflowSource.delete_all
+  Product.delete_all
 
   PaymentMethod.create(id: 1, name: 'クレジットカード')
   PaymentMethod.create(id: 2, name: '銀行振込')
